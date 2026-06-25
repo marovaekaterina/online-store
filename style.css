@@ -148,7 +148,8 @@ h4 {
 .counter {
     display: flex;
     height: 22px;
-    gap: 15px;
+    width: 88px;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -165,6 +166,23 @@ h4 {
     border: none;
     background: none;
     align-items: center;
+    cursor: pointer;
+}
+
+.plus:hover {
+    border: none;
+    background: none;
+    align-items: center;
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.minus:hover {
+    border: none;
+    background: none;
+    align-items: center;
+    cursor: pointer;
+    opacity: 80%;
 }
 
 .minus {
