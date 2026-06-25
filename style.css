@@ -1,0 +1,33 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #FDFDFD;
+}
+
+.header {
+    height: 80px;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.nav {
+    display: flex;
+    gap: 35px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #3B3E3E;
+    font-size: 16px;
+    font-weight: 500;
+}
