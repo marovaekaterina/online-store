@@ -7,7 +7,29 @@
 body {
     font-family: 'Inter', sans-serif;
     background-color: #FDFDFD;
+    padding: 0 80px;
 }
+
+p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #0A0908;
+}
+
+
+
+
+/* HEADER */
 
 .header {
     height: 80px;
@@ -30,4 +52,58 @@ body {
     color: #3B3E3E;
     font-size: 16px;
     font-weight: 500;
+}
+
+.header-actions {
+    display: flex;
+    gap: 30px;
+}
+
+.icon-button {
+    border: none;
+    background: none;
+}
+
+
+/* SLIDER */
+
+.slider {
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slide-content img {
+    width: 100%;
+    align-items: center;
+}
+
+.arrow-right,
+.arrow-left {
+    position: absolute;
+    top: 44%;
+    border: none;
+    background: none;
+}
+
+.arrow-right {
+    right: 20px;
+}
+
+.arrow-left {
+    left: 20px;
+}
+
+.arrow-right:hover {
+    border: none;
+    background: none;
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.arrow-left:hover {
+    border: none;
+    background: none;
+    opacity: 50%;
+    cursor: pointer;
 }
