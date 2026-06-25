@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <header class="header">
@@ -20,10 +22,18 @@
             <img src="./images/logo/logo.svg" class="logo">
 
             <nav class="nav">
-                <a href="#"><p>Каталог</p></a>
-                <a href="#"><p>О нас</p></a>
-                <a href="#"><p>Доставка</p></a>
-                <a href="#"><p>Контакты</p></a>
+                <a href="#">
+                    <p>Каталог</p>
+                </a>
+                <a href="#">
+                    <p>О нас</p>
+                </a>
+                <a href="#">
+                    <p>Доставка</p>
+                </a>
+                <a href="#">
+                    <p>Контакты</p>
+                </a>
             </nav>
 
             <div class="header-actions">
@@ -35,7 +45,7 @@
                 <button class="icon-button">
                     <img src="./images/icons/user-icon.svg">
                 </button>
-                
+
             </div>
         </div>
     </header>
@@ -48,12 +58,159 @@
         </div>
 
         <div class="step-buttons">
-            <button onclick="prevButton()" class="arrow-left"><img src="./images/icons/slider-icons/arrow-left-icon.svg"></button>
-            <button onclick="nextButton()" class="arrow-right"><img src="./images/icons/slider-icons/arrow-right-icon.svg"></button>
+            <button onclick="prevButton()" class="arrow-left"><img
+                    src="./images/icons/slider-icons/arrow-left-icon.svg"></button>
+            <button onclick="nextButton()" class="arrow-right"><img
+                    src="./images/icons/slider-icons/arrow-right-icon.svg"></button>
         </div>
     </section>
 
 
+    <section class="catalog">
+        <div class="container">
+
+            <h2>Каталог</h2>
+
+            <div class="catalog-list">
+
+                <div class="sort-section">
+                    <p>Все</p>
+                    <p>Сумки</p>
+                    <p>Рюкзаки</p>
+                    <p>Аксессуары</p>
+                    <p>Обувь</p>
+                </div>
+
+                <div class="catalog-grid">
+
+                    <div class="product-card">
+                        <img src="./images/card-img/card-img-1.png" alt="">
+                        <h4 class="product-title">Сумка-тоут бежевая</h4>
+                        <h4 class="product-price">6 990 Р</h4>
+
+                        <div class="counter">
+                            <button class="minus"><img src="./images/icons/card-icons/Vector.svg"></button>
+                            <span class="count">0</span>
+                            <button class="plus"><img src="./images/icons/card-icons/Vector-1.svg"></button>
+                        </div>
+
+                        <button class="add-to-cart"><img src="./images/icons/card-icons/shopping-bag-icon.svg"></button>
+                    </div>
+
+
+                    <div class="product-card">
+                        <img src="./images/card-img/card-img-2.png" alt="">
+                        <h4 class="product-title">Сумка на плечо чёрная</h4>
+                        <h4 class="product-price">5 490 Р</h4>
+
+                        <div class="counter">
+                            <button class="minus"><img src="./images/icons/card-icons/Vector.svg"></button>
+                            <span class="count">0</span>
+                            <button class="plus"><img src="./images/icons/card-icons/Vector-1.svg"></button>
+                        </div>
+
+                        <button class="add-to-cart"><img src="./images/icons/card-icons/shopping-bag-icon.svg"></button>
+                    </div>
+
+
+                    <div class="product-card">
+                        <img src="./images/card-img/card-img-3.png" alt="">
+                        <h4 class="product-title">Рюкзак бежевый</h4>
+                        <h4 class="product-price">4 990 Р</h4>
+
+                        <div class="counter">
+                            <button class="minus"><img src="./images/icons/card-icons/Vector.svg"></button>
+                            <span class="count">0</span>
+                            <button class="plus"><img src="./images/icons/card-icons/Vector-1.svg"></button>
+                        </div>
+
+                        <button class="add-to-cart"><img src="./images/icons/card-icons/shopping-bag-icon.svg"></button>
+                    </div>
+
+
+                    <div class="product-card">
+                        <img src="./images/card-img/card-img-4.png" alt="">
+                        <h4 class="product-title">Рюкзак чёрный</h4>
+                        <h4 class="product-price">4 990 Р</h4>
+
+                        <div class="counter">
+                            <button class="minus"><img src="./images/icons/card-icons/Vector.svg"></button>
+                            <span class="count">0</span>
+                            <button class="plus"><img src="./images/icons/card-icons/Vector-1.svg"></button>
+                        </div>
+
+                        <button class="add-to-cart"><img src="./images/icons/card-icons/shopping-bag-icon.svg"></button>
+                    </div>
+
+
+                    <div class="product-card">
+                        <img src="./images/card-img/card-img-5.png" alt="">
+                        <h4 class="product-title">Очки солнцезащитные</h4>
+                        <h4 class="product-price">1 990 Р</h4>
+
+                        <div class="counter">
+                            <button class="minus"><img src="./images/icons/card-icons/Vector.svg"></button>
+                            <span class="count">0</span>
+                            <button class="plus"><img src="./images/icons/card-icons/Vector-1.svg"></button>
+                        </div>
+
+                        <button class="add-to-cart"><img src="./images/icons/card-icons/shopping-bag-icon.svg"></button>
+                    </div>
+
+
+                    <div class="product-card">
+                        <img src="./images/card-img/card-img-6.png" alt="">
+                        <h4 class="product-title">Ремень бежевый</h4>
+                        <h4 class="product-price">1 490 Р</h4>
+
+                        <div class="counter">
+                            <button class="minus"><img src="./images/icons/card-icons/Vector.svg"></button>
+                            <span class="count">0</span>
+                            <button class="plus"><img src="./images/icons/card-icons/Vector-1.svg"></button>
+                        </div>
+
+                        <button class="add-to-cart"><img src="./images/icons/card-icons/shopping-bag-icon.svg"></button>
+                    </div>
+
+
+                    <div class="product-card">
+                        <img src="./images/card-img/card-img-7.png" alt="">
+                        <h4 class="product-title">Кеды белые</h4>
+                        <h4 class="product-price">3 990 Р</h4>
+
+                        <div class="counter">
+                            <button class="minus"><img src="./images/icons/card-icons/Vector.svg"></button>
+                            <span class="count">0</span>
+                            <button class="plus"><img src="./images/icons/card-icons/Vector-1.svg"></button>
+                        </div>
+
+                        <button class="add-to-cart"><img src="./images/icons/card-icons/shopping-bag-icon.svg"></button>
+                    </div>
+
+
+                    <div class="product-card">
+                        <img src="./images/card-img/card-img-8.png" alt="">
+                        <h4 class="product-title">Кеды бежевые</h4>
+                        <h4 class="product-price">3 990 Р</h4>
+
+                        <div class="counter">
+                            <button class="minus"><img src="./images/icons/card-icons/Vector.svg"></button>
+                            <span class="count">0</span>
+                            <button class="plus"><img src="./images/icons/card-icons/Vector-1.svg"></button>
+                        </div>
+
+                        <button class="add-to-cart"><img src="./images/icons/card-icons/shopping-bag-icon.svg"></button>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
     <script src="catalog.js"></script>
 </body>
+
 </html>

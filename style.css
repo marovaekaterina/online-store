@@ -68,7 +68,7 @@ h4 {
 /* SLIDER */
 
 .slider {
-    align-items: center;
+    padding: auto;
     margin-top: 20px;
     position: relative;
 }
@@ -76,6 +76,7 @@ h4 {
 .slide-content img {
     width: 100%;
     align-items: center;
+    justify-items: center;
 }
 
 .arrow-right,
@@ -106,4 +107,77 @@ h4 {
     background: none;
     opacity: 50%;
     cursor: pointer;
+}
+
+
+
+
+/* CATALOG */
+
+.catalog {
+    align-items: center;
+    width: 100%;
+}
+
+.container {
+    display: block;
+    gap: 40px;
+    padding: 0;
+}
+
+.catalog-list {
+    display: block;
+    gap: 20px;
+}
+
+.sort-section {
+    display: flex;
+    gap: 25px;
+}
+
+.catalog-grid{
+    display:grid;
+    grid-template-columns:repeat(4, 2fr);
+    gap: 20px;
+}
+
+.product-card img {
+    width: 100%;
+}
+
+.counter {
+    display: flex;
+    height: 22px;
+    gap: 15px;
+    align-items: center;
+}
+
+.count {
+    font-size: 16px;
+    font-weight: 500;
+    color: #3F3F3E;
+    align-content: center;
+    height: 22px;
+}
+
+.minus,
+.plus {
+    border: none;
+    background: none;
+    align-items: center;
+}
+
+.minus {
+    padding-bottom: 8px;
+}
+
+.add-to-cart {
+    border: none;
+    background-color: #0A0908;
+    border-radius: 5px;
+    padding: 8px 47%;
+    align-items: center;
+    margin: 20px 0;
+    width: max-content;
+    cursor: pointer;   
 }
