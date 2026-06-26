@@ -69,6 +69,8 @@ cartButtons.forEach(button => {
 
         const title = card.querySelector(".product-title").textContent;
         const quantity = Number(card.querySelector(".count").textContent);
+        const price = card.querySelector(".product-price").textContent;
+        const image = card.querySelector(".product-image").src;
 
         if (quantity === 0) {
             alert("Сначала выберите количество товара");
@@ -88,6 +90,8 @@ cartButtons.forEach(button => {
         } else {
             cart.push({
                 title: title,
+                quantity: quantity,
+                image: image,
                 quantity: quantity
             });
         }
