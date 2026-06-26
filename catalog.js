@@ -79,6 +79,21 @@ cartButtons.forEach(button => {
             `В корзину добавлен товар:\n\n` + `Название: ${title}\n` + `Количество: ${quantity}`
         );
 
+        let cart = JSON.parse(sessionStorage.getItem("cart")) || [];
+
+        const existingProduct = cart.find(item => item.title === title);
+
+        if(existingProduct) {
+            existingProduct.quantity += quantity;
+        } else {
+            cart.push({
+                title: title,
+                quantity: quantity
+            });
+        }
+
+        sessionStorage.setItem("cart", JSON.stringify(cart))
+
     });
 
 });
